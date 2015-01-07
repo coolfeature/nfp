@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/jesusstandingup" android:oneshot="true"  >
+    <item android:drawable="@drawable/jesuswaiting01" android:duration="50" />
+    <item android:drawable="@drawable/jesuswaiting02" android:duration="50" />
+    <item android:drawable="@drawable/jesuswaiting03" android:duration="50" />
+    <item android:drawable="@drawable/jesuswaiting04" android:duration="50" />
+    <item android:drawable="@drawable/jesuswaiting05" android:duration="50" />
+    <item android:drawable="@drawable/jesuswaiting06" android:duration="50" />
+    <item android:drawable="@drawable/jesuswaiting07" android:duration="50" />
+    <item android:drawable="@drawable/jesuswaiting08" android:duration="50" />
+    <item android:drawable="@drawable/jesuswaiting09" android:duration="50" />
+    <item android:drawable="@drawable/jesuswaiting10" android:duration="50" />
+    <item android:drawable="@drawable/jesuswaiting11" android:duration="50" />
+    <item android:drawable="@drawable/jesuswaiting12" android:duration="50" />
+    <item android:drawable="@drawable/jesuswaiting13" android:duration="50" />
+    <item android:drawable="@drawable/jesuswaiting14" android:duration="50" />
+    <item android:drawable="@drawable/jesuswaiting15" android:duration="50" />
+    <item android:drawable="@drawable/jesuswaiting16" android:duration="50" />
+    <item android:drawable="@drawable/jesuswaiting17" android:duration="50" />
+    <item android:drawable="@drawable/jesuswaiting18" android:duration="50" />
+    <item android:drawable="@drawable/jesuswaiting19" android:duration="50" />
+    <item android:drawable="@drawable/jesuswaiting20" android:duration="50" />
+    <item android:drawable="@drawable/jesuswaiting21" android:duration="50" />   
+</animation-list>

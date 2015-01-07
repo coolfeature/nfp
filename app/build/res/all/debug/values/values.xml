@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/media/szymon/Documents/Workspaces/android/lilia/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string-array name="mucus_degree">
+        <item> 0 </item>
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+        <item> 5 </item>
+        <item> 6 </item>
+        <item> 7 </item>
+    </string-array>
+    <!-- From: file:/media/szymon/Documents/Workspaces/android/lilia/app/src/main/res/values/colors.xml -->
+    <eat-comment />
+
+    <color name="android">#A4C739</color>
+    <color name="black">#000000</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="bronzeantique">#665D1E</color>
+    <color name="bronzedark">#52503C</color>
+    <color name="bronzenude">#6C541E</color>
+    <color name="facebook">#3B5998</color>
+    <color name="gold">#FFD700</color>
+    <color name="gray">#cccccc</color>
+    <color name="green">#00ff99</color>
+    <color name="pink">#ffcccc</color>
+    <color name="twitter">#4099FF</color>
+    <color name="white">#ffffff</color>
+    <color name="yellow">#ffff66</color>
+    <!-- From: file:/media/szymon/Documents/Workspaces/android/lilia/app/src/main/res/values/attrs.xml -->
+    <eat-comment />
+
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="buttonBarStyle" format="reference" />
+        <attr name="buttonBarButtonStyle" format="reference" />
+    </declare-styleable>
+    <!-- From: file:/media/szymon/Documents/Workspaces/android/lilia/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="app_id">576832488996237</string>
+    <string name="app_name">Kalendarzyk</string>
+    <string name="cancel">Cancel</string>
+    <string name="color"> Color </string>
+    <string name="czasPowiadomienia"> Czas powiadomienia: </string>
+    <string name="density"> Density </string>
+    <string name="dialogTlo"> tlo </string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="enableReminders"> Enable reminders </string>
+    <string name="gotoSearch">  >>  </string>
+    <string name="gotoUlubione">  &lt;&lt; </string>
+    <string name="iloscPowiadomien"> Ilość powiadomień </string>
+    <string name="losowaIlosc"> Losowa ilość powiadomień </string>
+    <string name="mucus_prompt"> 0 </string>
+    <string name="nastepny"> Następny </string>
+    <string name="occurancesText">Liczba dobowych powiadomień: </string>
+    <string name="ok">OK</string>
+    <string name="poprzedni"> Poprzedni </string>
+    <string name="reminderTime"> Set reminder time </string>
+    <string name="save"> Save </string>
+    <string name="saveNewCycle"> Save New Cycle </string>
+    <string name="share_email"> Email </string>
+    <string name="share_sms"> SMS </string>
+    <string name="slowo"> Kalendarzyk Migotki </string>
+    <string name="slowoLosowo"> O losowych porach </string>
+    <string name="special"> Special factors </string>
+    <string name="stretchability"> Elasticity </string>
+    <string name="temperature"> Temperature </string>
+    <string name="ustawCzas"> Set </string>
+    <string name="ustawienia"> Ustawienia </string>
+    <string name="wyjdz"> Wyjdź </string>
+    <!-- From: file:/media/szymon/Documents/Workspaces/android/lilia/app/src/main/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+
+    <style name="ButtonBarButton" />
+
+    <style name="FullscreenTheme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="buttonBarStyle">@style/ButtonBar</item>
+        <item name="buttonBarButtonStyle">@style/ButtonBarButton</item>
+    </style>
+
+</resources>

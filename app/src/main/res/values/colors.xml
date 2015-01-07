@@ -1,0 +1,18 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="gray">#cccccc</color>
+    <color name="yellow">#ffff66</color>
+    <color name="pink">#ffcccc</color>
+    <color name="green">#00ff99</color>
+    <color name="gold">#FFD700</color>
+    <color name="bronzenude">#6C541E</color>
+    <color name="bronzeantique">#665D1E</color>
+    <color name="bronzedark">#52503C</color>
+    <color name="facebook">#3B5998</color>
+    <color name="twitter">#4099FF</color>
+    <color name="android">#A4C739</color>
+
+</resources>

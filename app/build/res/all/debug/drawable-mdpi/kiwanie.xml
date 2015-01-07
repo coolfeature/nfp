@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/kiwanie" android:oneshot="false"  >
+   
+    <item android:drawable="@drawable/kiwanie1" android:duration="500" />
+    <item android:drawable="@drawable/kiwanie2" android:duration="300" />
+    <item android:drawable="@drawable/kiwanie3" android:duration="100" />
+    <item android:drawable="@drawable/kiwanie4" android:duration="100" />
+    <item android:drawable="@drawable/kiwanie5" android:duration="100" />
+    <item android:drawable="@drawable/kiwanie6" android:duration="100" />
+    <item android:drawable="@drawable/kiwanie7" android:duration="100" />
+    <item android:drawable="@drawable/kiwanie8" android:duration="200" />
+    <item android:drawable="@drawable/kiwanie9" android:duration="3000" />
+
+</animation-list><!-- From: file:/media/szymon/Documents/Workspaces/android/lilia/app/src/main/res/drawable-mdpi/kiwanie.xml -->

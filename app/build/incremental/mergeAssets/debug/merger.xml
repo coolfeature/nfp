@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/media/szymon/Documents/Workspaces/android/lilia/app/src/main/assets" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/media/szymon/Documents/Workspaces/android/lilia/app/src/debug/assets" />
+    </dataSet>
+
+</merger>

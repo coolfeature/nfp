@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Kalendarzyk</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="poprzedni"> Poprzedni </string>
+    <string name="nastepny"> Następny </string>
+    <string name="wyjdz"> Wyjdź </string>
+	<string name="dialogTlo"> tlo </string>
+    <string name="slowo"> Kalendarzyk Migotki </string>
+   
+	<string name="ustawienia"> Ustawienia </string>
+	<string name="slowoLosowo"> O losowych porach </string>
+	<string name="czasPowiadomienia"> Czas powiadomienia: </string>
+	<string name="losowaIlosc"> Losowa ilość powiadomień </string>
+	<string name="iloscPowiadomien"> Ilość powiadomień </string>
+	<string name="ustawCzas"> Set </string>
+	
+	<string name="app_id">576832488996237</string>
+	
+	<string name="ok">OK</string>
+	<string name="cancel">Cancel</string>
+	<string name="occurancesText">Liczba dobowych powiadomień: </string>
+	
+	<string name="share_email"> Email </string>
+	<string name="share_sms"> SMS </string>
+
+	<string name="gotoSearch">  >>  </string>
+	<string name="gotoUlubione">  &lt;&lt; </string>
+	
+	<string name="enableReminders"> Enable reminders </string>
+	<string name="reminderTime"> Set reminder time </string>
+	<string name="temperature"> Temperature </string>
+	<string name="color"> Color </string>
+	<string name="stretchability"> Elasticity </string>
+	<string name="density"> Density </string>
+	<string name="special"> Special factors </string>
+	<string name="saveNewCycle"> Save New Cycle </string>
+	<string name="save"> Save </string>
+	
+	<string name="mucus_prompt"> 0 </string>
+	<string-array name="mucus_degree">
+	    <item> 0 </item>
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+        <item> 5 </item>
+        <item> 6 </item>
+        <item> 7 </item>
+    </string-array>
+	
+</resources>
