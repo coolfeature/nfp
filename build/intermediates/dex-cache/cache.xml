@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\SDK\Android\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="D:\Workspaces\Android\nfp\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-860e42a24777c9a1a45f4216b55c7195a133a473.jar" />
+    </item>
+    <item
+        jar="D:\Workspaces\Android\nfp\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="D:\Workspaces\Android\nfp\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-b72c57d9d7843a5c61fd85925e2091dff01bfafc.jar" />
+    </item>
+    <item
+        jar="D:\Workspaces\Android\nfp\app\libs\mpandroidchartlibrary-1-7-4.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="c685e45ac6491e51640ce3571606ac22dfd4a6a3">
+        <dex dex="D:\Workspaces\Android\nfp\app\build\intermediates\pre-dexed\debug\mpandroidchartlibrary-1-7-4-7cb4f6110faa52cd48a4b799868581a1be36a998.jar" />
+    </item>
+    <item
+        jar="D:\Workspaces\Android\nfp\app\libs\joda-time-2.6.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="5015880733b0bc0ce813a3ed5601064c1d413671">
+        <dex dex="D:\Workspaces\Android\nfp\app\build\intermediates\pre-dexed\debug\joda-time-2.6-85d7bb8698ecc288bae8ab7b107e44dbd99fd7ce.jar" />
+    </item>
+    <item
+        jar="D:\Workspaces\Android\nfp\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="D:\Workspaces\Android\nfp\app\build\intermediates\pre-dexed\debug\classes-0db802dd03bd4aea6aae51df4fe6bff1c256ecd6.jar" />
+    </item>
+
+</items>

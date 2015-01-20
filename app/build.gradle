@@ -1,8 +1,13 @@
-apply plugin: 'android'
+/*
+ * These are module [app] specific build settings.
+ * app module is an Android application so we are using android plugin
+ */
+
+apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 19
-    buildToolsVersion "19.0.1"
+    buildToolsVersion "19.1.0"
 
     defaultConfig {
         minSdkVersion 5
@@ -11,7 +16,7 @@ android {
 
     buildTypes {
         release {
-            runProguard false
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
@@ -21,4 +26,5 @@ dependencies {
     compile 'com.android.support:support-v4:+'
     compile files('libs/achartengine-1.1.0.jar')
     compile files('libs/joda-time-2.6.jar')
+    compile files('libs/mpandroidchartlibrary-1-7-4.jar')
 }

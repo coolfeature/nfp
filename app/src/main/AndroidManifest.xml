@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="sowa.nfp"
+    package="ionas.nfp"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -18,23 +18,23 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
-        <receiver android:name="sowa.nfp.notification.BootReceiver"> 
+        <receiver android:name="ionas.nfp.notification.BootReceiver">
             <intent-filter> 
                 <action android:name="android.intent.action.BOOT_COMPLETED" /> 
                 <action android:name="android.intent.action.VIEW" />
             </intent-filter> 
         </receiver>
-        <service android:enabled="true" android:name="sowa.nfp.notification.NfpService"/>
-        <activity android:label="@string/app_name" android:name="sowa.nfp.CyclesActivity"/>
-        <activity android:label="@string/app_name" android:name="sowa.nfp.ChartActivity"/>
-        <activity android:label="@string/app_name" android:name="sowa.nfp.SettingsActivity"/> 
-        <activity android:label="@string/app_name" android:name="sowa.nfp.StartingActivity"> 
+        <service android:enabled="true" android:name="ionas.nfp.notification.NfpService"/>
+        <activity android:label="@string/app_name" android:name="ionas.nfp.activities.CyclesActivity"/>
+        <activity android:label="@string/app_name" android:name="ionas.nfp.activities.ChartActivity"/>
+        <activity android:label="@string/app_name" android:name="ionas.nfp.activities.SettingsActivity"/>
+        <activity android:label="@string/app_name" android:name="ionas.nfp.activities.FileChooserActivity"/>
+        <activity android:label="@string/app_name" android:name="ionas.nfp.activities.StartingActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
- 		<activity android:name="org.achartengine.GraphicalActivity" />
     </application>
 
 </manifest>

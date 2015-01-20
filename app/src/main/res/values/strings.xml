@@ -31,10 +31,10 @@
 	
 	<string name="enableReminders"> Enable reminders </string>
 	<string name="reminderTime"> Set reminder time </string>
+    <string name="cycle_day"> Cycle day </string>
 	<string name="temperature"> Temperature </string>
 	<string name="color"> Color </string>
 	<string name="stretchability"> Elasticity </string>
-	<string name="density"> Density </string>
 	<string name="special"> Special factors </string>
 	<string name="saveNewCycle"> Save New Cycle </string>
 	<string name="save"> Save </string>
@@ -50,5 +50,11 @@
         <item> 6 </item>
         <item> 7 </item>
     </string-array>
+
+    <!-- FILE CHOOSER STRINGS -->
+    <string name="folder">Folder</string>
+    <string name="parentDirectory">Parent Directory</string>
+    <string name="fileSize">File Size</string>
+    <string name="currentDir">Current Dir</string>
 	
 </resources>

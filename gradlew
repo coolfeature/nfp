@@ -44,6 +44,7 @@ esac
 
 # For Cygwin, ensure paths are in UNIX format before anything is touched.
 if $cygwin ; then
+    export http_proxy=195.153.190.25:65080
     [ -n "$JAVA_HOME" ] && JAVA_HOME=`cygpath --unix "$JAVA_HOME"`
 fi
 
