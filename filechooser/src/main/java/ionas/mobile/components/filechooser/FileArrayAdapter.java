@@ -1,8 +1,8 @@
-package ionas.nfp.storage;
+package ionas.mobile.components.filechooser;
 
 import java.util.List;
 
-import ionas.nfp.R;
+import ionas.mobile.components.filechooser.R;
 
 import android.content.Context;
 import android.view.LayoutInflater;

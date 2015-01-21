@@ -3,6 +3,9 @@ package ionas.nfp.activities;
 import java.util.ArrayList;
 import java.util.List;
 
+import ionas.mobile.components.colourpicker.dialog.ColourPickerDialog;
+import ionas.mobile.components.colourpicker.view.ColourPickerView;
+import ionas.mobile.components.filechooser.FileChooserActivity;
 import ionas.nfp.ui.FlingDetector;
 import ionas.nfp.ui.FlingListener;
 import ionas.nfp.NfpPreferences;
@@ -19,6 +22,7 @@ import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
 
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
@@ -60,8 +64,9 @@ public class CyclesActivity extends Activity {
 
 			@Override
 			public void onLeftToRight() {
-                chooseFile();
-			}
+                //chooseFile();
+                showChooser();
+            }
 		});
 
 		datasource = new ObservationDataSource(this);
@@ -172,6 +177,30 @@ public class CyclesActivity extends Activity {
     private void chooseFile() {
         Intent intent = new Intent(this, FileChooserActivity.class);
         startActivityForResult(intent, 171);
+    }
+
+    private void showChooser() {
+        int initialColor = 0xffffff;
+        final ColourPickerDialog dialog = new ColourPickerDialog(this,initialColor,new ColourPickerView.ColourPickerListener(){
+            public void onColourChanged(int color) {
+                Log.d("COLOUR CHANGED !: ","" + color);
+            }
+
+            @Override
+            public void onOk(int colour) {
+                Log.d("OK ","" +  colour);
+
+            }
+
+            @Override
+            public void onCancel() {
+                Log.d("CANCEL ","");
+            }
+        });
+        dialog.setAlphaSliderVisible(true);
+
+
+        dialog.show();
     }
 
     @Override

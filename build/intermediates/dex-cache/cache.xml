@@ -23,6 +23,20 @@
         <dex dex="D:\Workspaces\Android\nfp\app\build\intermediates\pre-dexed\debug\mpandroidchartlibrary-1-7-4-7cb4f6110faa52cd48a4b799868581a1be36a998.jar" />
     </item>
     <item
+        jar="D:\Workspaces\Android\nfp\app\build\intermediates\exploded-aar\nfp\colourpicker\unspecified\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="15f49d93a91977d5f747aba3030248be85c0fb37">
+        <dex dex="D:\Workspaces\Android\nfp\app\build\intermediates\pre-dexed\debug\classes-6e8d63b0c98aec594a7e7b73a9a2b8834b83bb75.jar" />
+    </item>
+    <item
+        jar="D:\Workspaces\Android\nfp\app\build\intermediates\exploded-aar\nfp\filechooser\unspecified\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="e4a0120d0e18015d9e94dd4369ad3e2475f8ed8f">
+        <dex dex="D:\Workspaces\Android\nfp\app\build\intermediates\pre-dexed\debug\classes-b1e86cfaa29de074f01573a73ecb3912d8c3686c.jar" />
+    </item>
+    <item
         jar="D:\Workspaces\Android\nfp\app\libs\joda-time-2.6.jar"
         jumboMode="false"
         revision="19.1.0"

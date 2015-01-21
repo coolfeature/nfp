@@ -1,4 +1,4 @@
-package ionas.nfp.storage;
+package ionas.mobile.components.filechooser;
 
 public class Option implements Comparable<Option> {
     private String name;

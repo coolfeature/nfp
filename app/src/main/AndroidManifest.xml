@@ -28,7 +28,7 @@
         <activity android:label="@string/app_name" android:name="ionas.nfp.activities.CyclesActivity"/>
         <activity android:label="@string/app_name" android:name="ionas.nfp.activities.ChartActivity"/>
         <activity android:label="@string/app_name" android:name="ionas.nfp.activities.SettingsActivity"/>
-        <activity android:label="@string/app_name" android:name="ionas.nfp.activities.FileChooserActivity"/>
+        <activity android:label="@string/app_name" android:name="ionas.mobile.components.filechooser.FileChooserActivity"/>
         <activity android:label="@string/app_name" android:name="ionas.nfp.activities.StartingActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

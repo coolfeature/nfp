@@ -1,11 +1,8 @@
 package ionas.nfp.db;
 
 import android.util.Log;
-
 import org.joda.time.DateTime;
-
 import java.io.Serializable;
-
 import ionas.nfp.utils.Utils;
 
 public class Cycle implements Serializable {

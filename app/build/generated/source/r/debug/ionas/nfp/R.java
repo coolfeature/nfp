@@ -10,6 +10,8 @@ package ionas.nfp;
 public final class R {
     public static final class anim {
         public static final int settings_enter=0x7f040000;
+        public static final int settings_leave=0x7f040001;
+        public static final int starting_enter=0x7f040002;
         public static final int starting_enter_left=0x7f040003;
         public static final int starting_leave=0x7f040004;
         public static final int starting_leave_right=0x7f040005;
@@ -22,6 +24,16 @@ public final class R {
         public static final int mucus_degree=0x7f050000;
     }
     public static final class attr {
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+         */
+        public static final int alphaChannelText=0x7f010003;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         */
+        public static final int alphaChannelVisible=0x7f010002;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -30,6 +42,28 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int buttonBarStyle=0x7f010000;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int colorPickerBorderColor=0x7f010005;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int colorPickerSliderColor=0x7f010004;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         */
+        public static final int showDialogTitle=0x7f010006;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         */
+        public static final int showSelectedColorInList=0x7f010007;
     }
     public static final class color {
         public static final int android=0x7f060000;
@@ -48,7 +82,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int yellow=0x7f06000d;
     }
     public static final class dimen {
-        public static final int activity_horizontal_margin=0x7f090000;
+        public static final int activity_horizontal_margin=0x7f0a0000;
     }
     public static final class drawable {
         public static final int email=0x7f020000;
@@ -135,114 +169,127 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int twitter=0x7f020051;
     }
     public static final class id {
-        public static final int TextView01=0x7f0a000d;
-        public static final int TextView02=0x7f0a000e;
-        public static final int btnGoBack=0x7f0a0002;
-        public static final int btnNextCycle=0x7f0a0003;
-        public static final int btnPrevCycle=0x7f0a0001;
-        public static final int buttonSave=0x7f0a0031;
-        public static final int buttonSaveNewCycle=0x7f0a0032;
-        public static final int chart=0x7f0a0000;
-        public static final int checkCircumstances=0x7f0a001d;
-        public static final int ckBox=0x7f0a0019;
-        public static final int deleteBtnFavourites=0x7f0a000a;
-        public static final int editColor=0x7f0a002d;
-        public static final int editTemperature=0x7f0a002b;
-        public static final int ibGoToChart=0x7f0a0035;
-        public static final int ibGoToCycles=0x7f0a0033;
-        public static final int ibGoToSettings=0x7f0a0034;
-        public static final int imEmail=0x7f0a0025;
-        public static final int img1=0x7f0a000c;
-        public static final int ivSms=0x7f0a0027;
-        public static final int jesussittingdown=0x7f0a0036;
-        public static final int jesusstandingup=0x7f0a0037;
-        public static final int kiwanie=0x7f0a0038;
-        public static final int listView1=0x7f0a0005;
-        public static final int llHidden=0x7f0a0023;
-        public static final int llMain=0x7f0a0004;
-        public static final int llSettings=0x7f0a001e;
-        public static final int llShare=0x7f0a0021;
-        public static final int llSlowoNaCodzien=0x7f0a001c;
-        public static final int mainLayout=0x7f0a001a;
-        public static final int pickTime=0x7f0a0020;
-        public static final int scrollView1=0x7f0a001b;
-        public static final int shareBtnFavourites=0x7f0a000b;
-        public static final int shareRoot=0x7f0a0024;
-        public static final int spinnerStretchability=0x7f0a002f;
-        public static final int textViewCircumstances=0x7f0a0030;
-        public static final int textViewColor=0x7f0a002c;
-        public static final int textViewDate=0x7f0a0029;
-        public static final int textViewStretchability=0x7f0a002e;
-        public static final int textViewTemperature=0x7f0a002a;
-        public static final int tvCircumstances=0x7f0a0017;
-        public static final int tvCircumstancesVal=0x7f0a0018;
-        public static final int tvColor=0x7f0a0013;
-        public static final int tvColorVal=0x7f0a0014;
-        public static final int tvCycleDay=0x7f0a000f;
-        public static final int tvCycleDayVal=0x7f0a0010;
-        public static final int tvEmail=0x7f0a0026;
-        public static final int tvEndDate=0x7f0a0008;
-        public static final int tvId=0x7f0a0006;
-        public static final int tvInfo=0x7f0a0022;
-        public static final int tvLength=0x7f0a0009;
-        public static final int tvReminderTime=0x7f0a001f;
-        public static final int tvSms=0x7f0a0028;
-        public static final int tvStartDate=0x7f0a0007;
-        public static final int tvStretchability=0x7f0a0015;
-        public static final int tvStretchabilityVal=0x7f0a0016;
-        public static final int tvTemperature=0x7f0a0011;
-        public static final int tvTemperatureVal=0x7f0a0012;
+        public static final int TextView01=0x7f070015;
+        public static final int TextView02=0x7f070016;
+        public static final int btnGoBack=0x7f070007;
+        public static final int btnNextCycle=0x7f070008;
+        public static final int btnPrevCycle=0x7f070006;
+        public static final int buttonSave=0x7f070039;
+        public static final int buttonSaveNewCycle=0x7f07003a;
+        public static final int cancelButton=0x7f070013;
+        public static final int chart=0x7f070005;
+        public static final int checkCircumstances=0x7f070025;
+        public static final int ckBox=0x7f070021;
+        public static final int color_panel_new=0x7f070000;
+        public static final int color_panel_old=0x7f070001;
+        public static final int color_picker_view=0x7f070002;
+        public static final int deleteBtnFavourites=0x7f07000f;
+        public static final int dialog_color_picker_extra_layout_landscape=0x7f070003;
+        public static final int editColor=0x7f070035;
+        public static final int editTemperature=0x7f070033;
+        public static final int ibGoToChart=0x7f07003d;
+        public static final int ibGoToCycles=0x7f07003b;
+        public static final int ibGoToSettings=0x7f07003c;
+        public static final int imEmail=0x7f07002d;
+        public static final int img1=0x7f070014;
+        public static final int ivSms=0x7f07002f;
+        public static final int jesussittingdown=0x7f07003e;
+        public static final int jesusstandingup=0x7f07003f;
+        public static final int kiwanie=0x7f070040;
+        public static final int linearLayout=0x7f070011;
+        public static final int listView1=0x7f07000a;
+        public static final int llHidden=0x7f07002b;
+        public static final int llMain=0x7f070009;
+        public static final int llSettings=0x7f070026;
+        public static final int llShare=0x7f070029;
+        public static final int llSlowoNaCodzien=0x7f070024;
+        public static final int mainLayout=0x7f070022;
+        public static final int okButton=0x7f070012;
+        public static final int pickTime=0x7f070028;
+        public static final int preference_preview_color_panel=0x7f070004;
+        public static final int scrollView1=0x7f070023;
+        public static final int shareBtnFavourites=0x7f070010;
+        public static final int shareRoot=0x7f07002c;
+        public static final int spinnerStretchability=0x7f070037;
+        public static final int textViewCircumstances=0x7f070038;
+        public static final int textViewColor=0x7f070034;
+        public static final int textViewDate=0x7f070031;
+        public static final int textViewStretchability=0x7f070036;
+        public static final int textViewTemperature=0x7f070032;
+        public static final int tvCircumstances=0x7f07001f;
+        public static final int tvCircumstancesVal=0x7f070020;
+        public static final int tvColor=0x7f07001b;
+        public static final int tvColorVal=0x7f07001c;
+        public static final int tvCycleDay=0x7f070017;
+        public static final int tvCycleDayVal=0x7f070018;
+        public static final int tvEmail=0x7f07002e;
+        public static final int tvEndDate=0x7f07000d;
+        public static final int tvId=0x7f07000b;
+        public static final int tvInfo=0x7f07002a;
+        public static final int tvLength=0x7f07000e;
+        public static final int tvReminderTime=0x7f070027;
+        public static final int tvSms=0x7f070030;
+        public static final int tvStartDate=0x7f07000c;
+        public static final int tvStretchability=0x7f07001d;
+        public static final int tvStretchabilityVal=0x7f07001e;
+        public static final int tvTemperature=0x7f070019;
+        public static final int tvTemperatureVal=0x7f07001a;
     }
     public static final class layout {
         public static final int chart_activity=0x7f030000;
         public static final int cycle_activity=0x7f030001;
         public static final int cycle_row=0x7f030002;
         public static final int cycles_dialog=0x7f030003;
-        public static final int file_view=0x7f030004;
-        public static final int observation_data=0x7f030005;
-        public static final int observation_dialog=0x7f030006;
-        public static final int observation_row=0x7f030007;
-        public static final int settings_activity=0x7f030008;
-        public static final int share_dialog=0x7f030009;
-        public static final int starting_activity=0x7f03000a;
+        public static final int dialog_colour_picker=0x7f030004;
+        public static final int file_view=0x7f030005;
+        public static final int observation_data=0x7f030006;
+        public static final int observation_dialog=0x7f030007;
+        public static final int observation_row=0x7f030008;
+        public static final int preference_preview_layout=0x7f030009;
+        public static final int settings_activity=0x7f03000a;
+        public static final int share_dialog=0x7f03000b;
+        public static final int starting_activity=0x7f03000c;
     }
     public static final class string {
-        public static final int app_id=0x7f070000;
-        public static final int app_name=0x7f070001;
-        public static final int cancel=0x7f070002;
-        public static final int color=0x7f070003;
-        public static final int currentDir=0x7f070004;
-        public static final int cycle_day=0x7f070005;
-        public static final int czasPowiadomienia=0x7f070006;
-        public static final int dialogTlo=0x7f070007;
-        public static final int dummy_button=0x7f070008;
-        public static final int dummy_content=0x7f070009;
-        public static final int enableReminders=0x7f07000a;
-        public static final int fileSize=0x7f07000b;
-        public static final int folder=0x7f07000c;
-        public static final int gotoSearch=0x7f07000d;
-        public static final int gotoUlubione=0x7f07000e;
-        public static final int iloscPowiadomien=0x7f07000f;
-        public static final int losowaIlosc=0x7f070010;
-        public static final int mucus_prompt=0x7f070011;
-        public static final int nastepny=0x7f070012;
-        public static final int occurancesText=0x7f070013;
-        public static final int ok=0x7f070014;
-        public static final int parentDirectory=0x7f070015;
-        public static final int poprzedni=0x7f070016;
-        public static final int reminderTime=0x7f070017;
-        public static final int save=0x7f070018;
-        public static final int saveNewCycle=0x7f070019;
-        public static final int share_email=0x7f07001a;
-        public static final int share_sms=0x7f07001b;
-        public static final int slowo=0x7f07001c;
-        public static final int slowoLosowo=0x7f07001d;
-        public static final int special=0x7f07001e;
-        public static final int stretchability=0x7f07001f;
-        public static final int temperature=0x7f070020;
-        public static final int ustawCzas=0x7f070021;
-        public static final int ustawienia=0x7f070022;
-        public static final int wyjdz=0x7f070023;
+        public static final int app_id=0x7f080000;
+        public static final int app_name=0x7f080001;
+        public static final int btnCancel=0x7f080002;
+        public static final int btnOk=0x7f080003;
+        public static final int cancel=0x7f080004;
+        public static final int color=0x7f080005;
+        public static final int currentDir=0x7f080006;
+        public static final int cycle_day=0x7f080007;
+        public static final int czasPowiadomienia=0x7f080008;
+        public static final int dialogTlo=0x7f080009;
+        public static final int dummy_button=0x7f08000a;
+        public static final int dummy_content=0x7f08000b;
+        public static final int enableReminders=0x7f08000c;
+        public static final int fileSize=0x7f08000d;
+        public static final int folder=0x7f08000e;
+        public static final int gotoSearch=0x7f08000f;
+        public static final int gotoUlubione=0x7f080010;
+        public static final int iloscPowiadomien=0x7f080011;
+        public static final int losowaIlosc=0x7f080012;
+        public static final int mucus_prompt=0x7f080013;
+        public static final int nastepny=0x7f080014;
+        public static final int occurancesText=0x7f080015;
+        public static final int ok=0x7f080016;
+        public static final int parentDirectory=0x7f080017;
+        public static final int poprzedni=0x7f080018;
+        public static final int reminderTime=0x7f080019;
+        public static final int save=0x7f08001a;
+        public static final int saveNewCycle=0x7f08001b;
+        public static final int share_email=0x7f08001c;
+        public static final int share_sms=0x7f08001d;
+        public static final int slowo=0x7f08001e;
+        public static final int slowoLosowo=0x7f08001f;
+        public static final int special=0x7f080020;
+        public static final int stretchability=0x7f080021;
+        public static final int temperature=0x7f080022;
+        public static final int to=0x7f080023;
+        public static final int ustawCzas=0x7f080024;
+        public static final int ustawienia=0x7f080025;
+        public static final int wyjdz=0x7f080026;
     }
     public static final class style {
         /** 
@@ -252,13 +299,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
         
          */
-        public static final int AppBaseTheme=0x7f080000;
+        public static final int AppBaseTheme=0x7f090000;
         /**  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f080001;
-        public static final int ButtonBar=0x7f080002;
-        public static final int ButtonBarButton=0x7f080003;
-        public static final int FullscreenTheme=0x7f080004;
+        public static final int AppTheme=0x7f090001;
+        public static final int ButtonBar=0x7f090002;
+        public static final int ButtonBarButton=0x7f090003;
+        public static final int FullscreenTheme=0x7f090004;
+        public static final int dialog_colour_picker_view_portrait=0x7f090005;
     }
     public static final class styleable {
         /** Attributes that can be used with a ButtonBarContainerTheme.
@@ -296,5 +344,107 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           @attr name ionas.nfp:buttonBarStyle
         */
         public static final int ButtonBarContainerTheme_buttonBarStyle = 0;
+        /** Attributes that can be used with a ColorPickerView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #ColorPickerView_alphaChannelText ionas.nfp:alphaChannelText}</code></td><td></td></tr>
+           <tr><td><code>{@link #ColorPickerView_alphaChannelVisible ionas.nfp:alphaChannelVisible}</code></td><td></td></tr>
+           <tr><td><code>{@link #ColorPickerView_colorPickerBorderColor ionas.nfp:colorPickerBorderColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ColorPickerView_colorPickerSliderColor ionas.nfp:colorPickerSliderColor}</code></td><td></td></tr>
+           </table>
+           @see #ColorPickerView_alphaChannelText
+           @see #ColorPickerView_alphaChannelVisible
+           @see #ColorPickerView_colorPickerBorderColor
+           @see #ColorPickerView_colorPickerSliderColor
+         */
+        public static final int[] ColorPickerView = {
+            0x7f010002, 0x7f010003, 0x7f010004, 0x7f010005
+        };
+        /**
+          <p>This symbol is the offset where the {@link ionas.nfp.R.attr#alphaChannelText}
+          attribute's value can be found in the {@link #ColorPickerView} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+          @attr name ionas.nfp:alphaChannelText
+        */
+        public static final int ColorPickerView_alphaChannelText = 1;
+        /**
+          <p>This symbol is the offset where the {@link ionas.nfp.R.attr#alphaChannelVisible}
+          attribute's value can be found in the {@link #ColorPickerView} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
+          @attr name ionas.nfp:alphaChannelVisible
+        */
+        public static final int ColorPickerView_alphaChannelVisible = 0;
+        /**
+          <p>This symbol is the offset where the {@link ionas.nfp.R.attr#colorPickerBorderColor}
+          attribute's value can be found in the {@link #ColorPickerView} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name ionas.nfp:colorPickerBorderColor
+        */
+        public static final int ColorPickerView_colorPickerBorderColor = 3;
+        /**
+          <p>This symbol is the offset where the {@link ionas.nfp.R.attr#colorPickerSliderColor}
+          attribute's value can be found in the {@link #ColorPickerView} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name ionas.nfp:colorPickerSliderColor
+        */
+        public static final int ColorPickerView_colorPickerSliderColor = 2;
+        /** Attributes that can be used with a ColourPickerPreference.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #ColourPickerPreference_showDialogTitle ionas.nfp:showDialogTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ColourPickerPreference_showSelectedColorInList ionas.nfp:showSelectedColorInList}</code></td><td></td></tr>
+           </table>
+           @see #ColourPickerPreference_showDialogTitle
+           @see #ColourPickerPreference_showSelectedColorInList
+         */
+        public static final int[] ColourPickerPreference = {
+            0x7f010006, 0x7f010007
+        };
+        /**
+          <p>This symbol is the offset where the {@link ionas.nfp.R.attr#showDialogTitle}
+          attribute's value can be found in the {@link #ColourPickerPreference} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
+          @attr name ionas.nfp:showDialogTitle
+        */
+        public static final int ColourPickerPreference_showDialogTitle = 0;
+        /**
+          <p>This symbol is the offset where the {@link ionas.nfp.R.attr#showSelectedColorInList}
+          attribute's value can be found in the {@link #ColourPickerPreference} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
+          @attr name ionas.nfp:showSelectedColorInList
+        */
+        public static final int ColourPickerPreference_showSelectedColorInList = 1;
     };
 }

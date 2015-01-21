@@ -1,8 +1,8 @@
-package ionas.nfp.activities;
+package ionas.mobile.components.filechooser;
 
-import ionas.nfp.R;
-import ionas.nfp.storage.FileArrayAdapter;
-import ionas.nfp.storage.Option;
+import ionas.mobile.components.filechooser.R;
+import ionas.mobile.components.filechooser.FileArrayAdapter;
+import ionas.mobile.components.filechooser.Option;
 
 import java.io.File;
 import java.io.FileFilter;
@@ -15,6 +15,7 @@ import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Environment;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.ListView;
@@ -93,7 +94,9 @@ public class FileChooserActivity extends ListActivity {
         Collections.sort(dir);
         Collections.sort(fls);
         dir.addAll(fls);
-        if (!f.getName().equalsIgnoreCase("sdcard")) {
+        File sdCard = Environment.getExternalStorageDirectory();
+        Log.d("Name: ", sdCard.getName().toString());
+        if (!f.getName().equalsIgnoreCase(sdCard.getName().toString())) {
             if (f.getParentFile() != null)
                 dir.add(0, new Option("..", getString(R.string.parentDirectory), f.getParent(), false, true));
         }
